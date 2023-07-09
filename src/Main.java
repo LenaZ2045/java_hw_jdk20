@@ -7,7 +7,6 @@ public class Main {
         int one = 2023;
         int two = 7;
         int three = 5;
-
         System.out.println(a + b + c + "OF " + three + '/' + two + "/" + one);
     }
 }
