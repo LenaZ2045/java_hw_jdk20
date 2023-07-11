@@ -33,7 +33,5 @@ public class Main {
         System.out.println(weather.weekDay7);
         System.out.println("High temperature is: " + weather.tempSunday + "'F");
         System.out.println("Day will be: " + weather.conditionOfDay1);
-
-
     }
 }

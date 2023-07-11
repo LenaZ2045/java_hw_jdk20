@@ -18,6 +18,4 @@ public class WeeklyForecast {
     String conditionOfDay1 = "Sunny";
     String conditionOfDay2 = "Mostly Sunny";
     String conditionOfDay3 = "Partly Sunny";
-
-
 }
