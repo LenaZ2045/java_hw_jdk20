@@ -1,4 +1,4 @@
-package portland_weather;
+package hw_july10_portland_weather;
 
 public class Main {
     public static void main(String[] args) {
