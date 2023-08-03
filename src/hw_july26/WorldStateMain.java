@@ -1,6 +1,6 @@
 package hw_july26;
 
-public class Main {
+public class WorldStateMain {
     public static void main(String[] args) {
         WorldState worldState = new WorldState();
         boolean isWorldNegative = false;
