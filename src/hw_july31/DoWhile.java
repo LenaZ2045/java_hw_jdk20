@@ -15,7 +15,6 @@ public class DoWhile {
         int correctAnswer = calculator.add(num1,num2);
         int yourAnswer;
 
-
         do {
             System.out.println("What is the sum of "+num1+" + "+num2+" Type your answer:");
             yourAnswer = scanner.nextInt();
