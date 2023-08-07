@@ -1,5 +1,8 @@
 package hw_july26;
 
+import static hw_july26.WorldState.isWorldNegativelyGood;
+import static hw_july26.WorldState.isWorldPositivelyGood;
+
 public class WorldStateMain {
     public static void main(String[] args) {
         WorldState worldState = new WorldState();
@@ -18,13 +21,5 @@ public class WorldStateMain {
         System.out.println();
         System.out.println("Is EARTH COLLAPSED? "+isWorldPositivelyGood(worldState.isWar, worldState.amIHungry, worldState.anIHomeless, worldState.isEarthCollapsed));
         System.out.println("In conclusion, is our world negative? "+isWorldNegative);
-    }
-    public static boolean isWorldNegativelyGood(boolean isWar, boolean isCataclysm, boolean isTheft, boolean amIAlive) {
-        boolean b = !amIAlive;
-        return b && isWar && isCataclysm || isTheft;
-    }
-    public static boolean isWorldPositivelyGood( boolean isWar, boolean amIHungry, boolean anIHomeless, boolean isEarthCollapsed) {
-        boolean b1 = !isWar;
-        return b1 && amIHungry && anIHomeless || isEarthCollapsed;
     }
 }
