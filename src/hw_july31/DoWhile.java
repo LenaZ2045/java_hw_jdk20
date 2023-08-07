@@ -10,18 +10,19 @@ public class DoWhile {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         Calculator calculator = new Calculator();
-        int num1 = random.nextInt(1000);
-        int num2 = random.nextInt(1000);
-        int correctAnswer = calculator.add(num1,num2);
         int yourAnswer;
-
+        int correctAnswer;
+        int num1;
+        int num2;
         do {
-            System.out.println("What is the sum of "+num1+" + "+num2+" Type your answer:");
+            num1 = random.nextInt(1000);
+            num2 = random.nextInt(1000);
+            correctAnswer = calculator.add(num1, num2);
+            System.out.println("What is the sum of " + num1 + " + " + num2 + " Type your answer:");
             yourAnswer = scanner.nextInt();
-            System.out.println("Your answer is: "+yourAnswer);
-            System.out.println("Correct answer is: "+correctAnswer);
-        }while (yourAnswer != correctAnswer);
-
-        System.out.println("Congratulations! You added numbers with success!");
+            System.out.println("Your answer is: " + yourAnswer);
+            System.out.println("Correct answer is: " + correctAnswer);
+        } while (yourAnswer != correctAnswer);
+        System.out.println("Congratulations! You added numbers " + num1 + " + " + num2 + " with success!");
     }
 }
