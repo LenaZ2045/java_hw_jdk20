@@ -10,7 +10,7 @@ public class Main {
         System.out.println();
         System.out.println("What is your name: ");
         mathQuiz.name = mathQuiz.scanner.next();
-        System.out.println("Please complete all six MATH QUIZZES, " + mathQuiz.name+"!");
+        System.out.println("Please complete all six MATH QUIZZES, " + mathQuiz.name + "!");
         mathQuiz.start();
     }
 }
